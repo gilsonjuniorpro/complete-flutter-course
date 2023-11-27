@@ -35,8 +35,8 @@ final goRouter = GoRouter(
           path: 'cart',
           name: AppRoute.cart.name,
           pageBuilder: (context, state) => const MaterialPage(
-              fullscreenDialog: true,
-              child: ShoppingCartScreen(),
+            fullscreenDialog: true,
+            child: ShoppingCartScreen(),
           ),
           routes: [
             GoRoute(
@@ -74,7 +74,7 @@ final goRouter = GoRouter(
           pageBuilder: (context, state) => const MaterialPage(
             fullscreenDialog: true,
             child: EmailPasswordSignInScreen(
-                formType: EmailPasswordSignInFormType.signIn,
+              formType: EmailPasswordSignInFormType.signIn,
             ),
           ),
         ),
